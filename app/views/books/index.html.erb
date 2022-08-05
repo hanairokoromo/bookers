@@ -4,7 +4,10 @@
 
     <p>Title</p>
     <span>
-        <%= link_to book.title, book_path(book.id) %>
+        <%= book.title %>
     </span>
+    <%= link_to "Show", show_book_path(book.id) %>
+    <%= link_to "Edit", edit_book_path(book.id) %>
+    <%= link_to "Delete", destroy_book_path(book.id), method: :delete, "data-confirm" => "本当に削除しますか？" %>
     
 <% end %>
