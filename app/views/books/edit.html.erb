@@ -9,6 +9,12 @@
     
     <%= f.submit '保存' %>
     
+    <% if flash[:notice] %>
+        <p id = "notice">
+            <%= flash[:notice] %>
+        </p>
+    <% end %>
+    
 <% end %>
 
 <%= link_to "Show", show_book_path(@book.id) %>
