@@ -32,3 +32,77 @@ body{
     line-height: 18px;
     margin: 33px;
 }
+
+h1{
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+}
+
+strong{
+    font-weight: bold;
+}
+
+p, ol, ul, td{
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+table{
+    display: table;
+    box-sizing: border-box;
+    text-indent: initial;
+    
+}
+
+thead{
+    display: table-header-group;
+    vertical-align: middle;
+}
+
+tr{
+    display: table-row;
+    vertical-align: inherit;
+}
+
+th{
+    padding-bottom: 5px;
+}
+
+td{
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: inherit;
+}
+
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+}
+
+h2{
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+}
+
+.form_block{
+    display: block;
+    margin-top: 0em;
+}
+
+.field, .actions{
+    display: block;
+    margin-bottom: 10px;
+}
+
+label{
+    display: block;
+}
